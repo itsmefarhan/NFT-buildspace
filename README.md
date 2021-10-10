@@ -13,3 +13,11 @@ npx hardhat node
 node scripts/sample-script.js
 npx hardhat help
 ```
+
+## Run app
+- Clone this repo and run **npm install**
+- Create **.env** file at root and add **STAGING_ALCHEMY_KEY** and **PRIVATE_KEY**
+- Get Alchemy key from alchemy project and private key is from your metamask a/c private key
+
+## Deploy
+- npx hardhat run scripts/deploy.js --network rinkeby
